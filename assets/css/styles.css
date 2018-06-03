@@ -1,0 +1,126 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.padTB30 {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.ajax_loader {
+	display: none;
+	margin: 0 auto;
+}
+.ajax-error {
+	display: inline-block;
+    width: 100%;
+    color: #a94442;
+    font-size: 20px;
+}
+.head-wrapper {
+	background: #2d3136;
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+.form-container {clear: both;}
+.logo {max-width: 100%;}
+.header div img {max-width: 20%;}
+.before-form {
+	padding-top: 80px;
+	padding-bottom: 50px;
+}
+form label {
+	color: #fff;
+	font-size: 20px;
+}
+form label:after {
+	content: '*';
+	color: red;
+	padding-left: 5px;
+}
+.head-wrapper form textarea,
+.head-wrapper form input {
+	background-color: transparent;
+    border-color: #4c4f53;
+    color: #fff;
+    font-size: 20px;
+   	outline: none;
+}
+.head-wrapper form textarea:focus, 
+.head-wrapper form input:focus {
+	border-color: #a94442;
+}
+.part-one input {
+	max-width: 75%;
+    padding: 30px 0 30px 10px;
+}
+.part-one #name {margin-bottom: 25px;}
+.button-container {
+	margin-top: 50px; 
+}
+.help-block.with-errors {
+	position: absolute;
+	top: 0;
+	left: 100px;
+}
+.button-container button {font-size: 20px;}
+.items {
+	text-align: center; 
+	margin: 20px 0;
+}
+.body-wrapper {padding-bottom: 50px;}
+.body-wrapper h2 {
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+.odd .item_head {background: #4b596c;}
+.even .item_head {background: #58ad52;}
+.odd .item_body {background: #e9eef3;}
+.even .item_body {background: #deebde;}
+.item_head {
+	padding: 10px 0;
+	color: #fff;
+	font-size: 20px;
+	word-wrap: break-word;
+}
+.email {
+	display: inline-block;
+    width: 100%;
+    padding: 30px 0 40px;
+    font-weight: 600;
+    font-size: 20px;
+    opacity: 0.8;
+    word-wrap: break-word;
+}
+.comment {
+	font-size: 20px;
+    opacity: 0.6;
+    font-weight: 600;
+    max-width: 80%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    overflow: hidden;
+    height: 160px;
+    word-wrap: break-word;
+}
+.footer {background: #2d3136;padding: 15px 0;}
+.social a {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+}
+.social a img {max-width: 100%;}
+.footer-logo {padding-top: 10px;}
+
+/*===================================MEDIA QUERIES===========================*/
+
+@media (max-width: 992px){
+	.part-one input {max-width: 100%;}
+	.before-form {
+    	padding-top: 120px;
+    	padding-bottom: 0px;
+	}
+	.header div img {
+    	max-width: 25%;
+	}
+}
